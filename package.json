@@ -1,0 +1,39 @@
+{
+  "name": "hubot-spotify-search",
+  "description": "A Hubot script to search spotify",
+  "version": "1.0.0",
+  "author": "Dan Brooke <kiequoo@gmail.com>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "spotify"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kiequoo/hubot-spotify-search.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/kiequoo/hubot-spotify-search/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
